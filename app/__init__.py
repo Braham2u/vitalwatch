@@ -1,1 +1,2 @@
-# init
+Add app package initializer
+
