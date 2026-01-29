@@ -28,7 +28,8 @@ jobs:
         run: |
           ruff check .
 
-       - name: Run tests (pytest)
+            - name: Run tests (pytest)
         run: |
+          export PYTHONPATH="$PWD"
           pytest -q
 
